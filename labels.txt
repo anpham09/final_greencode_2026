@@ -1,0 +1,12 @@
+0 objects-AI
+1 objects-non-AI
+2 body-AI
+3 body-non-AI
+4 text-AI
+5 text-non-AI
+6 reflections-AI
+7 reflections-non-AI
+8 backgrounds-AI
+9 backgrounds-non-AI
+10 textures-AI
+11 textures-non-AI
