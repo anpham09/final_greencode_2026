@@ -116,7 +116,11 @@ def get_module_info(label):
     label_lower = label.lower()
 
     for module_key, module_text in MODULE_INFO.items():
-        if module_key in label_lower:
+        if "textures" in label_lower:
+            return """Module 5: Textures
+            
+AI textures look good in a thumbnail but fall apart when zoomed in. Fabric patterns may not follow the body, seams may disappear, zippers may stop halfway, and everything may look too new with no scratches, stains, or wear."""
+        elif module_key in label_lower:
             return module_text
 
     return None
